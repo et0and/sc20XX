@@ -39,8 +39,8 @@ task :libs => :dirs do
 end
 
 task :package => [:ruby, :libs] do
-  `cp soundcloud2000 vendor`
+  `cp sc20XX vendor`
   `cp -a bin/* vendor/bin`
   `cp -a lib/* vendor/lib`
-  `tar czf soundcloud2000.tgz vendor`
+  `tar czf sc20XX.tgz vendor`
 end

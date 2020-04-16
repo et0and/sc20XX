@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
-require_relative '../../lib/soundcloud2000/controllers/track_controller'
+require_relative '../../lib/sc20XX/controllers/track_controller'
 
-module Soundcloud2000
+module Sc20XX
   module Controllers
     describe TrackController do
       let(:tracks) { mock }
