@@ -42,4 +42,4 @@ library to compile the native extensions.
   * play tracks of different users (`u`)
   * play favorites from a user (`f`)
   * play sets/playlists from a user  (`s`)
-  * level meter
+  * level meter]
